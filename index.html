@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Ford - Portfolio</title>
+
+    <!-- Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
+        <div class="container-fluid">
+
+            <!-- Left -->
+            <a class="navbar-brand fw-bold" href="#hero">Ethan Ford</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <div class="flex-grow-1"></div>
+
+                <!-- Center -->
+                <ul class="navbar-nav mb-2 mb-lg-0 d-flex gap-3 text-center">
+
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                </ul>
+
+                <!-- Right -->
+                <div class="flex-grow-1 d-flex justify-content-end align-items-center gap-3">
+
+                    <a class="nav-link" href="features.html" target="_blank">Features</a>
+
+                    <button id="darkModeToggle" class="btn btn-outline-dark">
+                        <i class="bi bi-moon"></i>
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section id="hero" class="text-center">
+        <img src="images/20220924_192011.jpg" width="150" class="rounded-circle shadow mb-3 mx-auto" alt="Your photo">
+
+        <h1 class="fw-bold">Ethan Ford</h1>
+        <p class="lead">Developer • Designer • Problem Solver</p>
+
+        <a class="btn btn-primary mt-3 hero-btn" data-bs-toggle="modal" data-bs-target="#contactModal">
+            Contact Me
+        </a>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="container py-5">
+        <h2 class="mb-4 text-center">About Me</h2>
+        <div class="row text-center">
+            <div class="col-md-8 mx-auto">
+                <p class="lead">
+                    Hi my name is Ethan and i am a 4th year student comming to the end of my first semester. I am studying software deveopment in 
+                    TU Tallaght and have gained a lot of knowledge and experience since starting my course. I made this portfolio as my project from my second class assesment for my module Visual Design.
+                    It will be a usefull tool to show people my skill while showing them who i am and what my qualifications are.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section id="education" class="container py-5">
+        <h2 class="mb-4 text-center">Education</h2>
+
+        <div class="accordion" id="educationAccordion">
+
+            <!-- YEAR 4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="year4Header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#year4" aria-expanded="false">
+                        Year 4 - GPA: X.X
+                    </button>
+                </h2>
+                <div id="year4" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Module — Grade</li>
+                            <li>Module — Grade</li>
+                            <li>Module — Grade</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- YEAR 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="year3Header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#year3" aria-expanded="false">
+                        Year 3 - GPA: X.X
+                    </button>
+                </h2>
+                <div id="year3" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Module — Grade</li>
+                            <li>Module — Grade</li>
+                            <li>Module — Grade</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- YEAR 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="year2Header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#year2" aria-expanded="false">
+                        Year 2 - GPA: X.X
+                    </button>
+                </h2>
+                <div id="year2" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Module — Grade</li>
+                            <li>Module — Grade</li>
+                            <li>Module — Grade</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- YEAR 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="year1Header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#year1" aria-expanded="false">
+                        Year 1 - GPA: X.X
+                    </button>
+                </h2>
+                <div id="year1" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Module — Grade</li>
+                            <li>Module — Grade</li>
+                            <li>Module — Grade</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="container py-5">
+        <h2 class="mb-4 text-center">Skills</h2>
+
+        <!-- Tabs -->
+        <ul class="nav nav-tabs justify-content-center mb-4" id="skillsTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="prog-tab" data-bs-toggle="tab" data-bs-target="#prog" type="button"
+                    role="tab">Programming</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="design-tab" data-bs-toggle="tab" data-bs-target="#design" type="button"
+                    role="tab">Design</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="soft-tab" data-bs-toggle="tab" data-bs-target="#soft" type="button"
+                    role="tab">Soft Skills</button>
+            </li>
+        </ul>
+
+        <!-- Content -->
+        <div class="tab-content" id="skillsTabContent">
+
+            <!-- PROGRAMMING -->
+            <div class="tab-pane fade show active" id="prog" role="tabpanel">
+                <div class="row text-center g-4">
+                    <div class="col-md-4">
+                        <div class="card p-3 shadow-sm"><i class="bi bi-braces fs-1"></i>
+                            <h5>JavaScript</h5>
+                            <p class="text-start">I have imoplemented a lot of Java script into my projects during my
+                                time at TU tallaght including this website.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-3 shadow-sm"><i class="bi bi-terminal fs-1"></i>
+                            <h5>Bash</h5>
+                            <p class="text-start"> I was first introduced to bash in second year and used it up to my
+                                final year in TU Tallaght. In my first semester of 4th year i did well in its module.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-3 shadow-sm"><i class="bi bi-code-slash fs-1"></i>
+                            <h5>C#</h5>
+                            <p class="text-start">C# was introduced in 4th year of college but it wasnt my first time
+                                experiencing it as i had used it during my intership and chose to use it in my final
+                                project.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DESIGN -->
+            <div class="tab-pane fade" id="design" role="tabpanel">
+                <div class="row text-center g-4 justify-content-center">
+
+                    <div class="col-md-4">
+                        <div class="card p-3 shadow-sm">
+                            <i class="bi bi-brush fs-1"></i>
+                            <h5>UI/UX</h5>
+                            <p class="text-start">
+                                During my class Visual design I learned a lot about how to design and present websites
+                                so users have a good experience.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card p-3 shadow-sm">
+                            <i class="bi bi-bar-chart fs-1"></i>
+                            <h5>Graphs</h5>
+                            <p class="text-start">
+                                I learned how to use Tableau to create dashboards that make complex information easier
+                                to understand with the use of graphs.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- SOFT SKILLS -->
+            <div class="tab-pane fade" id="soft" role="tabpanel">
+                <div class="row justify-content-center text-center g-4">
+                    <div class="col-md-4">
+                        <div class="card p-3 shadow-sm">
+                            <i class="bi bi-people fs-1"></i>
+                            <h5>Teamwork</h5>
+                            <p class="text-start">
+                                During my time at TU Tallaght I was involved in many group projects
+                                in order to learn how to organise and compromise to efficiently work together.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card p-3 shadow-sm">
+                            <i class="bi bi-chat-dots fs-1"></i>
+                            <h5>Communication</h5>
+                            <p class="text-start">
+                                Communication with a group or individuals is very important when creating
+                                strong relations and completing tasks effectively.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="container py-5">
+        <h2 class="mb-4 text-center">Experience</h2>
+
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h6 class="fw-bold">Work Placement</h6>
+                <p>During my second semester of third year I did my Intreship at a company called retail integration where i got hands on experience at real world software development and IT managment support skills.
+                    This experience lasted over 7 months as i was given the opertunity to extend my work placement because my skills in the position have grown greatly since i started and became a valuble member of the team. 
+                </p>
+            </li>
+            <li class="list-group-item">
+                <h6 class="fw-bold">Other Experience</h6>
+                <p>Before my internship i worked at two other astablishments. Each of these employments lasted over 2 years. The more recent place of employent of the two was my position at the Spawell Driving Range where 
+                    my job was to drive around collecting golf balls hit on the range before opening and empty them into the cleaning conveyer
+                </p>
+                <p></p>
+                <p>My first every place of employment was a company called A-Z hire. This company rents out construction equipment like scaffolding, plate compactors, cement mixers, diggers and everything in between. 
+                    This was the most physically demanding job i had and i appreciate having it in my list as working there thought me disiplin and gain connections with people.</p>
+            </li>
+        </ul>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container py-5">
+        <h2 class="mb-4 text-center">Projects</h2>
+
+        <div id="carouselExample" class="carousel slide mb-4">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1673636348357.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/photo-1518770660439-4636190af475.avif" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/photo-1518770660439-4636190af475.avif" class="d-block w-100">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="images/Screenshot 2025-11-29 162659.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5>4th Year Project</h5>
+                        <p>A web sales page i made for my final year project</p>
+                        <a href="https://localhost:4200/" class="btn btn-primary" target="_blank">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="images/photo-1518770660439-4636190af475.avif" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Project 2</h5>
+                        <p>Short description…</p><a href="#" class="btn btn-primary" target="_blank">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- INTERESTS -->
+    <section id="interests" class="container py-5">
+        <h2 class="mb-4 text-center">Interests</h2>
+        <p class="lead text-center">Gaming • Fitness • Music • Teaching • Web Design</p>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="container py-5">
+        <h2 class="mb-4 text-center">Contact</h2>
+
+        <form class="mx-auto" style="max-width: 600px;">
+            <div class="mb-3"><label class="form-label">Your Email</label><input type="email" class="form-control">
+            </div>
+            <div class="mb-3"><label class="form-label">Message</label><textarea class="form-control"
+                    rows="4"></textarea></div>
+            <button class="btn btn-primary w-100">Send</button>
+        </form>
+
+    </section>
+
+
+    <!-- MODAL -->
+    <div class="modal fade" id="contactModal">
+        <div class="modal-dialog">
+            <div class="modal-content p-4">
+                <h3 class="fw-bold">Contact Information</h3>
+                <p><i class="bi bi-envelope"></i> x00197969@myTUdublin.com</p>
+                <p><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank">Linkedin</a></p>
+                <p><i class="bi bi-geo-alt"></i> TU Tallaght</p>
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Smooth Scroll -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener("click", function (e) {
+                if (this.getAttribute("href") !== "#") {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute("href"))
+                        .scrollIntoView({ behavior: "smooth" });
+                }
+            });
+        });
+    </script>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="btn btn-primary shadow">Top</button>
+
+    <script>
+        const backToTopBtn = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            backToTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+        });
+
+        backToTopBtn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+
+
+    <!-- Dark Mode -->
+    <script>
+        const toggleBtn = document.getElementById("darkModeToggle");
+
+        toggleBtn.addEventListener("click", () => {
+            document.body.classList.toggle("dark-mode");
+
+            // Icon changeF
+            if (document.body.classList.contains("dark-mode")) {
+                toggleBtn.innerHTML = '<i class="bi bi-sun"></i>';
+            } else {
+                toggleBtn.innerHTML = '<i class="bi bi-moon"></i>';
+            }
+        });
+    </script>
+
+</body>
+
+</html>
