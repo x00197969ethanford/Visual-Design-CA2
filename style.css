@@ -157,6 +157,16 @@ html {
     flex-grow: 1; 
 }
 
+#skillsTab {
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+
+#skillsTab .nav-item {
+    flex: 0 0 auto;
+}
+
 
 /* ================ PROJECTS ================ */
 
