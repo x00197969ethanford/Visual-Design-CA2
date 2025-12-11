@@ -15,6 +15,7 @@ backToTop.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
+// Message sent
 document.getElementById("sendMessageBtn").addEventListener("click", () => {
     const modal = new bootstrap.Modal(document.getElementById("messageConfirm"));
     modal.show();
