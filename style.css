@@ -18,6 +18,17 @@ html {
     scroll-margin-top: 70px;
 }
 
+.section-shadow {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 40px;
+    background: white;
+}
+
+.dark-mode .section-shadow {
+    background: #1e1e1e;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.05);
+}
 
 /* ================= NAVBAR ================= */
 
@@ -28,7 +39,6 @@ html {
 .nav-link:hover {
     opacity: 0.7;
 }
-
 
 /* ================ HERO ==================== */
 
@@ -51,7 +61,6 @@ html {
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
 }
-
 
 /* ================ EDUCATION =============== */
 
@@ -87,7 +96,6 @@ html {
     transform: translateY(-6px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
-
 
 /* ================= CONTACT ================ */
 
