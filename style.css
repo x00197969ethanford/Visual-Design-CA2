@@ -103,6 +103,41 @@ html {
     border-bottom: 1px solid #333;
 }
 
+.grade-A {
+    color: #0f8a40;
+    font-weight: bold;
+}
+
+.grade-B {
+    color: #d6a741;
+    font-weight: bold;
+}
+
+.grade-C {
+    color: #c24f40;
+    font-weight: bold;
+}
+
+.education-card {
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: 0.2s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+/* Dark mode support */
+.dark-mode .education-card {
+    background: #2a2a2a;
+    border-color: #444;
+    box-shadow: 0 2px 8px rgba(255,255,255,0.05);
+}
+
 
 /* ================= SKILLS ================= */
 
